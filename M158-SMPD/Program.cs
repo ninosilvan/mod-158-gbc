@@ -9,6 +9,7 @@ namespace M158_SMPD
     static class Program
     {
         /// <summary>
+        /// TEST
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
         [STAThread]
