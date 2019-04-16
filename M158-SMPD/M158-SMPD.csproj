@@ -45,6 +45,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Grp2\frmFaecherzuteilung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp2\frmFaecherzuteilung.Designer.cs">
+      <DependentUpon>frmFaecherzuteilung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grp3\frmFirmDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp3\frmFirmDat.Designer.cs">
+      <DependentUpon>frmFirmDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grp1\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp1\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grp4\frmNotenlisten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp4\frmNotenlisten.Designer.cs">
+      <DependentUpon>frmNotenlisten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grp2\frmNotenperiode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp2\frmNotenperiode.Designer.cs">
+      <DependentUpon>frmNotenperiode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grp4\frmSchnellerfassung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp4\frmSchnellerfassung.Designer.cs">
+      <DependentUpon>frmSchnellerfassung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grp3\frmStudLehr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp3\frmStudLehr.Designer.cs">
+      <DependentUpon>frmStudLehr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grp5\frmStammdaten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp5\frmStammdaten.Designer.cs">
+      <DependentUpon>frmStammdaten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grp6\frmKlassen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grp6\frmKlassen.Designer.cs">
+      <DependentUpon>frmKlassen.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Grp7\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
